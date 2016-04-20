@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test_20_12" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/test_20_12" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="headers" />
+					<Add directory="src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/test_20_12" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Program Files (x86)/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="headers" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libmingw32.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libSDLmain.a" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\bin\SDL.dll" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\bin\SDL_image.dll" />
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\bin\SDL_ttf.dll" />
+			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="data/AXYZ.TXT" />
+		<Unit filename="data/PAXYZ.TXT" />
+		<Unit filename="data/SIF.TXT" />
+		<Unit filename="data/SXYZ.TXT" />
+		<Unit filename="headers/CArc.h" />
+		<Unit filename="headers/CCamera.h" />
+		<Unit filename="headers/CData2i.h" />
+		<Unit filename="headers/CDonneesGraphe.h" />
+		<Unit filename="headers/CEnvironnement.h" />
+		<Unit filename="headers/CGraphe.h" />
+		<Unit filename="headers/CPoint3f.h" />
+		<Unit filename="headers/CPointAnnexe.h" />
+		<Unit filename="headers/CSegment.h" />
+		<Unit filename="headers/CSommet.h" />
+		<Unit filename="headers/CTexture.h" />
+		<Unit filename="headers/CTrain.h" />
+		<Unit filename="headers/CWagon.h" />
+		<Unit filename="headers/consts.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CArc.cpp" />
+		<Unit filename="src/CCamera.cpp" />
+		<Unit filename="src/CData2i.cpp" />
+		<Unit filename="src/CDonneesGraphe.cpp" />
+		<Unit filename="src/CEnvironnement.cpp" />
+		<Unit filename="src/CGraphe.cpp" />
+		<Unit filename="src/CPoint3f.cpp" />
+		<Unit filename="src/CPointAnnexe.cpp" />
+		<Unit filename="src/CSegment.cpp" />
+		<Unit filename="src/CSommet.cpp" />
+		<Unit filename="src/CTexture.cpp" />
+		<Unit filename="src/CTrain.cpp" />
+		<Unit filename="src/CWagon.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
